@@ -1,8 +1,8 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-    bot_token = "Token" --Put You Token Here
+    bot_token = "368251822:AAFsEfl2rXWKYaYnFnI1Cny8Ts8GLRm1y6M" --Put You Token Here
    send_api = "https://api.telegram.org/bot"..bot_token
-sudo_id = 157059515
+sudo_id = 183982329
 require('./bot/methods')
 http = require('socket.http')
 https = require('ssl.https')
@@ -130,30 +130,8 @@ function create_config( )
     enabled_plugins = {
     "core"
     },
-    sudo_users = {157059515},--Sudo users
-    info_text = [[*》Beyond Messenger V1.0*
-`》An messenger bot based on plugin`
-
-》[Beyond Messenger](https://github.com/BeyondTeam/BDMessenger)
-
-*》Admins :*
-*》Founder & Developer :* [SoLiD](Telegram.Me/SoLiD)
-_》Developer & Sponser :_ [MAKAN](Telegram.Me/MAKAN)
-_》Developer :_ [ToOfan](Telegram.Me/ToOfan)
-_》Developer :_ [Mohammad](Telegram.Me/Mohammadrezajiji)
-_》Developer :_ [AmirHossein](Telegram.Me/Sudo1)
-_》Developer :_ [Ehsan](Telegram.Me/CliFather)
-
-*》Special thanks to :*
-》[MrHalix](Telegram.Me/MrHalix)
-`And Beyond Team Members`
-
-*》Our channel :*
-》[BeyondTeam](Telegram.Me/BeyondTeam)
-
-*》Our Site :*
-[BeyondTeam](BeyondTeam.ir)
-]],
+    sudo_users = {183982329},--Sudo users
+    info_text = [[this Is Test]],
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
